@@ -1,7 +1,11 @@
+package prac;
 import java.util.*;
 import static net.mindview.util.Print.*;
 
-class FirstProgram{
+public class FirstProgram{
+	protected void f(){
+		print("inside FirstProgram f()");
+	}
 
 	public void testVA(String... args){
 		for(String s: args){
